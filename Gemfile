@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 1.2'
 # Google Authentication
 gem "omniauth-google-oauth2", "~> 0.2.1"
 
+# Passenger Support
+gem "passenger"
+
+# EXECJS
+gem "execjs"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
