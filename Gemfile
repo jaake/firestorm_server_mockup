@@ -15,6 +15,9 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+# libxml
+gem 'libxml-ruby'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -31,10 +34,11 @@ gem 'jbuilder', '~> 1.2'
 gem "omniauth-google-oauth2", "~> 0.2.1"
 
 # Passenger Support
-gem "passenger"
+gem 'passenger'
 
-# EXECJS
-gem "execjs"
+gem 'rubyzip'
+
+gem 'libxml-ruby' 
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

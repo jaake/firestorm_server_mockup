@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: MyString
+  address: MyString
+  name: MyString
+  email: MyString
+  roof: MyString
+  roof-photos: MyString
+  eaves: MyString
+  eave-photos: MyString
+  walls: MyString
+  wall-photos: MyString
+  attached: MyString
+  attached-photos: MyString
+  clearance: MyString
+  clearance-photos: MyString
+  defensible: MyString
+  defensible-photos: MyString
+  access: MyString
+  access-photos: MyString
+  water: MyString
+  water-photos: MyString
+  closing: MyString
+  closing-photos: MyString
+
+two:
+  time: MyString
+  address: MyString
+  name: MyString
+  email: MyString
+  roof: MyString
+  roof-photos: MyString
+  eaves: MyString
+  eave-photos: MyString
+  walls: MyString
+  wall-photos: MyString
+  attached: MyString
+  attached-photos: MyString
+  clearance: MyString
+  clearance-photos: MyString
+  defensible: MyString
+  defensible-photos: MyString
+  access: MyString
+  access-photos: MyString
+  water: MyString
+  water-photos: MyString
+  closing: MyString
+  closing-photos: MyString
