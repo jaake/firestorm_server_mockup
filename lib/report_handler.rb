@@ -1,6 +1,5 @@
-
-module ReportHandler
-
+class ReportHandler
+  
   require 'zip'
   require 'libxml'
 
@@ -8,11 +7,9 @@ module ReportHandler
   def self.unzip
     zipfiles = []
     uploads = Dir.entries("from_android/")
-    
     uploads.each do |file|
       zipfiles << file if /.zip/.match file
     end
-    
     zipfiles.each do |zipfile|
       Zip::File.open("from_android/#{zipfile}") do |file|
         file.each do |entry|
@@ -27,16 +24,15 @@ module ReportHandler
 
   def self.separate
     
-    reports = Dir.entries(from_android/reports)  
-    reports.each do |report|
-      parser = LibXML::XML::Parser.file("from_android/reports/#{report}")
+    Dir.foreach("from_android/reports/") do |xmlfile|
+      next if xmlfile == '.' or xmlfile == '..'
+      parser = LibXML::XML::Parser.file("from_android/reports/#{xmlfile}")
       document = parser.parse
       document.find("Report").each do |report|
-        
+        report.each { |report| puts "#{report} **"}         
 
-        puts report
       end
-    end
+    end  
   end
 
 end

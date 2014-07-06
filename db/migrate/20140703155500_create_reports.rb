@@ -6,23 +6,23 @@ class CreateReports < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.string :roof
-      t.string :roof-photos
+      t.string :roof_photos
       t.string :eaves
-      t.string :eave-photos
+      t.string :eave_photos
       t.string :walls
-      t.string :wall-photos
+      t.string :wall_photos
       t.string :attached
-      t.string :attached-photos
+      t.string :attached_photos
       t.string :clearance
-      t.string :clearance-photos
+      t.string :clearance_photos
       t.string :defensible
-      t.string :defensible-photos
+      t.string :defensible_photos
       t.string :access
-      t.string :access-photos
+      t.string :access_photos
       t.string :water
-      t.string :water-photos
+      t.string :water_photos
       t.string :closing
-      t.string :closing-photos
+      t.string :closing_photos
 
       t.timestamps
     end

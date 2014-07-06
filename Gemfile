@@ -38,7 +38,7 @@ gem 'passenger'
 
 gem 'rubyzip'
 
-gem 'libxml-ruby' 
+gem 'foundation-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

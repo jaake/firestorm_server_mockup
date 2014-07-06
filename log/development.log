@@ -3109,3 +3109,2224 @@ Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-02 16:00:55 -0500
 
 
 Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-02 16:00:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 10:26:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__3951606569856832170__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (4.0.45) lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  passenger (4.0.45) lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  passenger (4.0.45) lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  passenger (4.0.45) lib/phusion_passenger/request_handler.rb:448:in `block (3 levels) in start_threads'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReports (20140703155500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReports (20140703155500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (207.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReports (20140703155500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReports (20140703155500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReports (20140703155500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "reports" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" varchar(255), "address" varchar(255), "name" varchar(255), "email" varchar(255), "roof" varchar(255), "roof_photos" varchar(255), "eaves" varchar(255), "eave_photos" varchar(255), "walls" varchar(255), "wall_photos" varchar(255), "attached" varchar(255), "attached_photos" varchar(255), "clearance" varchar(255), "clearance_photos" varchar(255), "defensible" varchar(255), "defensible_photos" varchar(255), "access" varchar(255), "access_photos" varchar(255), "water" varchar(255), "water_photos" varchar(255), "closing" varchar(255), "closing_photos" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140703155500"]]
+  [1m[36m (245.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 638ms (Views: 611.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-04 10:33:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 19:58:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 20:32:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load paths:
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/images
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/stylesheets
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/jquery-rails-3.1.1/vendor/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets/foundation_and_overrides.scss:1327)):
+    16: 
+    17:   	<title><%= content_for?(:title) ? yield(:title) : "Firestorm || WFHA" %></title>
+    18: 
+    19:     <%= stylesheet_link_tag    "application" %>
+    20:     <%= javascript_include_tag "application" %>
+    21:     <%= javascript_include_tag "vendor/custom.modernizr" %>
+    22:     <%= csrf_meta_tags %>
+  app/assets/stylesheets/foundation_and_overrides.scss:1327
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___3171843311628475979_33895860'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 20:33:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    16: 
+    17:   	<title><%= content_for?(:title) ? yield(:title) : "Firestorm || WFHA" %></title>
+    18: 
+    19:     <%= javascript_include_tag "application" %>
+    20:     <%= javascript_include_tag "vendor/custom.modernizr" %>
+    21:     <%= csrf_meta_tags %>
+    22:   
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___3171843311628475979_23841880'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 20:35:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load paths:
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/images
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/stylesheets
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/jquery-rails-3.1.1/vendor/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets/foundation_and_overrides.scss:1327)):
+    16: 
+    17:   	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    18: 
+    19:   	<%= stylesheet_link_tag    "application" %>
+    20:   	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    21:     <%= csrf_meta_tags %>
+    22:   </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:1327
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:36:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:36:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:35 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:38:54 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    26:     <%= yield %>
+    27: 
+    28:     
+    29:     <%= javascript_include_tag "application" %>
+    30:   </body>
+    31: </html>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3171843311628475979_31928980'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 21:58:49 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation/functions.
+Load paths:
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/images
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/javascripts
+  /home/jaake/Projects/firestorm_server_ruby/vendor/assets/stylesheets
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/jquery-rails-3.1.1/vendor/assets/javascripts
+  /home/jaake/.rvm/gems/ruby-2.1.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/stylesheets/foundation_and_overrides.scss:13)):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:13
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3171843311628475979_70318151049920'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:06:54 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/jaake/Projects/firestorm_server_ruby/app/assets/javascripts/application.js:15)):
+    14:   <body>
+    15: 
+    16:     <%= yield %>
+    17:     <%= javascript_include_tag "application" %>
+    18:   </body>
+    19: </html>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___3171843311628475979_70318151049920'
+
+
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jaake/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:08:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 214ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:36 -0500
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:08:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 22:13:30 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:15:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:15:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1910ms (Views: 1899.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 1848ms (Views: 1834.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:15:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 151ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 22:15:52 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 22:16:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1851ms (Views: 1835.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:48 -0500
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 22:16:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:18:42 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3238ms (Views: 3237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:18:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:19:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1608ms (Views: 1606.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:19:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:20:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 150ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:34 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:34 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:34 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:20:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 147ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:20:44 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:20:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:25:20 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1675ms (Views: 1674.5ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+
+
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:25:22 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:25:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:26 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:26 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:26 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:25:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:25:53 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1719ms (Views: 1708.0ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:25:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:28:27 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:28:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+
+
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:28:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:28:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 178ms (Views: 164.7ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:28:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:29:07 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:07 -0500
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:07 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:07 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:07 -0500
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:29:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-05 23:29:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1783ms (Views: 1773.8ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-05 23:29:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-06 09:23:23 -0500
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at 2014-07-06 09:23:23 -0500

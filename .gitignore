@@ -1,2 +1,4 @@
-/shared
-/tmp
+/shared/
+/tmp/
+/log/
+/from_android/
